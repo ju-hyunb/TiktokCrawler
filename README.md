@@ -1,5 +1,5 @@
-Tiktok Crawler with puzzle captcha solver
+### Tiktok Crawler with puzzle captcha solver
 
-Environment settings
+#### Environment settings
 - python3.9
 - chrome debug mode
