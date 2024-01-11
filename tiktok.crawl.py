@@ -49,23 +49,7 @@ class Driver:
         time.sleep(1)
 
         return driver
-    
 
-    def ScrollDown_(self):
-
-        SCROLL_PAUSE_CNT = 100
-        cnt=0
-        while SCROLL_PAUSE_CNT != cnt :
-
-            body = driver.find_element(By.CSS_SELECTOR, 'body')
-            body.send_keys(Keys.PAGE_DOWN)
-
-            cnt+=1
-            self.SolveCaptcha()
-
-
-
-    
 
     def ScrollDown(self):
 
